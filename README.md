@@ -111,15 +111,6 @@ module.exports = {
 - GitHub Pages
 - Any static hosting
 
-## 🔍 SEO
-
-The project includes:
-- Meta tags
-- Open Graph tags
-- Semantic HTML
-- Sitemap generation
-- Robots.txt
-
 
 ## 🤝 Contributing
 
