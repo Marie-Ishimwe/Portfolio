@@ -10,33 +10,33 @@ import { Card } from "@/components/Card";
 
 const testimonials = [
   {
-    name: "Alex Turner",
-    position: "Marketing Manager @ TechStartups",
-    text: "Alex was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
+    name: "Jean-Claude Niyonzima",
+    position: "Director @ MINAGRI Digital Office",
+    text: "Aimee Marie transformed our livestock registration system with remarkable insight. Her ability to simplify a complex five-step process into just two steps made our platform accessible even for users with minimal digital literacy. Her user-centered approach delivered real results for Rwandan farmers.",
     avatar: memojiAvatar1,
   },
   {
-    name: "Olivia Green",
-    position: "Head of Design @ GreenLeaf",
-    text: "Working with Alex was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website has exceeded our expectations.",
+    name: "Patricia Uwase",
+    position: "Program Manager @ GanzAfrica",
+    text: "Aimee Marie's contributions to our fellowship program were invaluable. Her UI designs for the NLA dashboard combined beautiful aesthetics with practical functionality. Her concept note was instrumental in securing $50,000 in funding for our alumni network.",
     avatar: memojiAvatar2,
   },
   {
-    name: "Daniel White",
-    position: "CEO @ InnovateCo",
-    text: "Alex's ability to create seamless user experiences is unmatched. Our website has seen a significant increase in conversions since launching the new design. We couldn't be happier.",
+    name: "Emmanuel Hakizimana",
+    position: "Head Teacher @ Gatsata Catholique",
+    text: "Watching Aimee Marie test her Quizzle application with our primary students was inspiring. The children were deeply engaged, solving challenges and learning complex English vocabulary with enthusiasm. Her thoughtful design approach created an educational experience our students genuinely enjoyed.",
     avatar: memojiAvatar3,
   },
   {
-    name: "Emily Carter",
-    position: "Product Manager @ GlobalTech",
-    text: "Alex is a true frontend wizard. He took our complex product and transformed it into an intuitive and engaging user interface. We're already seeing positive feedback from our customers.",
+    name: "Esther Mugisha",
+    position: "Fellow Student @ ALU",
+    text: "Aimee Marie's guidance transformed my English writing skills. Her patient mentorship during our Sunday and Wednesday sessions helped me progress from basic grammar to confident academic writing. She has a gift for making complex concepts accessible and engaging.",
     avatar: memojiAvatar4,
   },
   {
-    name: "Michael Brown",
-    position: "Director of IT @ MegaCorp",
-    text: "Alex's work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
+    name: "Dr. Joseph Nkurunziza",
+    position: "Computer Science Professor @ ALU",
+    text: "Aimee Marie's capstone project showcased exceptional UX design thinking. Her gamified learning application demonstrated a deep understanding of both technical implementation and human-centered design principles. Her ability to blend education theory with engaging interfaces sets her apart.",
     avatar: memojiAvatar5,
   },
 ];
