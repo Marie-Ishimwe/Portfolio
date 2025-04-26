@@ -1,8 +1,9 @@
+'use client';
 import { SectionHeader } from "@/components/SectionHeader";
 import PlusIcon from "@/assets/icons/plus.svg";
-import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import { Card } from "@/components/Card";
 import { twMerge } from "tailwind-merge";
+import { useState } from "react";
 const faqs=[
     {
         question: "What type of projects do you specialize in?",
@@ -40,7 +41,7 @@ const faqs=[
 ];
 
 export const FaqsSection = () => { 
-    const activeFaq = 0; 
+    const [activeFaq, setSelectedIndex] = useState(0); 
     return (
         <section className="py-24"> 
         <div className="container">
@@ -54,7 +55,7 @@ export const FaqsSection = () => {
                 <Card key={faq.question} className="p-6">
                     <div className="flex items-stretch justify-between">
                         <h3 className="font-semibold">{faq.question}</h3>
-                        <PlusIcon className={twMerge("size-6 flex-shrink-0", activeFaq===faqIndex && "rotate-45")} />
+                        <PlusIcon className={twMerge("size-6 flex-shrink-0", activeFaq===faqIndex && "rotate-45")} onClick={()=>setSelectedIndex(faqIndex)}/>
                     </div>
                     <div className={twMerge("mt-4", activeFaq!== faqIndex && "hidden")}>
                         <p className="text-sm lg:text-base text-white/60">{faq.answer}</p>

@@ -7,6 +7,7 @@ import { AboutSection } from "@/sections/About";
 import { ExperienceSection } from "@/sections/Experience";
 import { ContactSection } from "@/sections/Contact";
 import { FaqsSection } from "@/sections/Faqs";
+import {Footer }from "@/sections/Footer";
 export default function Home() {
   return (
     <div>
@@ -19,6 +20,7 @@ export default function Home() {
       <TestimonialsSection />
       <ContactSection/>
       <FaqsSection />
+      <Footer />
     </div>
   );
 }

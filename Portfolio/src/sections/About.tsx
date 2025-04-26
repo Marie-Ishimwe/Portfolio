@@ -119,7 +119,7 @@ export const AboutSection = () => {
               onClick={copyEmail}
               className="bg-white text-gray-950 py-2 px-3 rounded-md hover:bg-white/70 hover:text-gray-900"
             >
-              {copied ? "Copied!" : "Copy"}
+              {copied ? "Done!" : "Copy"}
             </button>
           </div>
         </Card>
