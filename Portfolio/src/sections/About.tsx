@@ -8,7 +8,7 @@ import { useState } from "react"
 import { TechIcon } from "@/components/Technologies";
 import { Card } from "@/components/Card";
 
-// Define social media links array
+// social media links array
 const socialLinks = [
   {
     url: "https://www.linkedin.com/in/aimeemarieishimwe-30612a146",
@@ -48,7 +48,7 @@ const EducationalBackground =[
   }
 ];
 
-export const AboutSection = () => {
+export const AboutSection = ({ id }: { id?: string }) => {
   const [copied, setCopied] = useState(false);
   
   const copyEmail = () => {
@@ -58,7 +58,7 @@ export const AboutSection = () => {
   };
 
   return (
-    <section className="container py-20 lg:py-28">
+    <section id={id} className="container py-20 lg:py-28">
       <div className="mb-16">
         <SectionHeader
           eyebrow="Personal Background"
